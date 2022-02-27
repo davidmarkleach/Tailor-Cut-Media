@@ -41,16 +41,22 @@
 				</div>
 				<div class="col-sm-4 text-center border">
 					<h3>Click-Through-Rate</h3>
-					<p class="CTR">.5%</p>
+					<!-- <p class="CTR">.5%</p> -->
 					<p>
 						<label for="amount">(.25% increments):</label>
 						<input type="text" id="ctr" readonly style="border:0; color: #f8f9fa; font-weight:bold; background-color: #6c757d;">
 					</p>
-					<div id="slider"></div>
+					<div id="slider" class="my-3"></div>
 				</div>
 				<div class="col-sm-4 text-center border">
 					<h3>Conversion Rate</h3>
-					<p class="CVR">1.5%</p>
+					<!-- <p class="CVR">1.5%</p> -->
+					<p>
+						<label for="cvramount">(.25% increments):</label>
+						<input type="text" id="cvr" readonly style="border:0; color: #f8f9fa; font-weight:bold; background-color: #6c757d;">
+					</p>
+					<div id="slidercvr" class="my-3"></div>
+
 				</div>
 				<div class="col-sm-4 text-center border">
 					<h3>Impressions</h3>
@@ -58,7 +64,13 @@
 				</div>
 				<div class="col-sm-4 text-center border">
 					<h3>Cost Per 1k Impressions</h3>
-					<p class="CPM">$5</p>
+					<!-- <p class="CPM">$5</p> -->
+					<p>
+						<label for="cpmamount">($0.25 increments):</label>
+						<input type="text" id="cpm" readonly style="border:0; color: #f8f9fa; font-weight:bold; background-color: #6c757d;">
+					</p>
+					<div id="slidercpm" class="my-3"></div>
+
 				</div>
 				<div class="col-sm-4 text-center border">
 					<h3>Cost Per Aquisition</h3>
